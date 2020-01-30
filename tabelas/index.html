@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
     <style>
         body{
             background-color: aquamarine;
@@ -18,7 +19,11 @@
         <!--"table table-striped table-dark"-->
         <!--"table table-striped table-hover "-->
         <!--"table table-striped table-bordered "-->
-        <caption>List of users</caption>
+        <caption class="ml-5">List of users</caption><!--my-5 e a margem eixo y -->
+        <!--sm pequeno lg grande-->
+        <!--justify-content-center-->
+        <!--btn-block ocupa todo espaço da div-->
+        <!--col-sm-12 para versao menor col-md-10 versao maior col-lg-8-->
         <thead class="thead-dark"><!--cabeçalho tabela//"thead-light"-->
             <tr>
                 <th scope="col">
@@ -88,7 +93,7 @@
                     Masculino
                 </th>
             </tr>
-            <tr class="bg-warning">
+            <tr class="bg-warning"><!--bg e background-->
                 <th class="bg-danger">
                     Maria
                 </th>
@@ -107,7 +112,7 @@
   <img src="prodeb.png" alt="prodeb" class="rounded mx-auto d-block">
   <!--"rounded float-right " -->
   <div class="alert alert-success" role="alert">
-    <h4 class="alert-heading">Atenção!</h4>
+    <h4 class="alert-heading"><i class="fas fa-angry"></i>Atenção!</h4>
     <p>obrigado pela atenção.<a href="#" class="alert-link">link</a></p>
     <hr>
     <p class="mb-0">continue test.</p>
@@ -128,13 +133,13 @@
       <li class="btn btn-link breadcrumb-item active btn-sm" aria-current="page">Sair</li>
     </ol>
   </nav>
-  <button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+  <button type="button" class="btn btn-outline-secondary btn-lg">Button</button>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
    
     <div class="carousel-inner text-center">
       <div class="carousel-item active" data-interval="1500">
         <img src="goku1.png.png"  alt="goku1" width="300" height="200">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block text-primary">
             <h5>Goku</h5>
             <p>Goku Primeiro estagio.</p>
           </div>
@@ -172,5 +177,6 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js"></script>
 </body>
 </html>
